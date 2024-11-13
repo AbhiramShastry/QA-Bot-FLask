@@ -1,0 +1,9 @@
+Flask==2.2.2
+python-dotenv==0.21.0
+langchain==0.0.142
+langchain-community==0.0.5
+langchain-openai==0.1.0  # Replace with the correct version if different
+openai==0.27.0
+PyPDF2==3.0.0  # For handling PDF files
+Werkzeug==2.2.2  # Compatibility with Flask
+
