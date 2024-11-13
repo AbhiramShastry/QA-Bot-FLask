@@ -32,7 +32,7 @@ This project is a Flask-based API that allows users to upload a PDF or JSON docu
     OPENAI_API_KEY=your_openai_api_key
 
 5. Start the Flask application:
-```bash
+    ```bash
     flask run
     The API will run on http://127.0.0.1:5000.
 
