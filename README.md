@@ -17,20 +17,25 @@ This project is a Flask-based API that allows users to upload a PDF or JSON docu
 
 
 2. Set up a virtual environment:
+   ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
 3. Install the required package:
+   ```bash
     pip install -r requirements.txt
 
 4. Set up the OpenAI API Key:
+   ```bash
     Create a .env file in the project root.
     Add your API key to .env:
     OPENAI_API_KEY=your_openai_api_key
 
 5. Start the Flask application:
+```bash
     flask run
     The API will run on http://127.0.0.1:5000.
 
 6. Testing
+    ```bash
     curl -X POST -F "questions=@questions.json" -F "document=@document.pdf" http://127.0.0.1:5000/upload
